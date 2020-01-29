@@ -7,8 +7,6 @@ class TermsOfUse extends OBFController {
   }
 
   public function terms_load () {
-    $this->user->require_permission('terms_module');
-
     return $this->model('terms_load');
   }
 

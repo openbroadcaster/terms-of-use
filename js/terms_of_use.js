@@ -6,6 +6,7 @@ OBModules.TermsOfUse = new function () {
 
   this.initMenu = function () {
     OB.UI.addSubMenuItem('admin', 'Terms of Use', 'terms_of_use', OBModules.TermsOfUse.open, 150, 'terms_module');
+    OB.UI.addSubMenuItem('help', 'Terms of Use', 'view_terms_of_use', OBModules.TermsOfUse.openView, 150);
   }
 
   this.open = function () {
@@ -19,6 +20,18 @@ OBModules.TermsOfUse = new function () {
 
       $('#terms_html').val(response.data);
     })
+  }
+
+  this.openView = function () {
+    OB.UI.replaceMain('modules/terms_of_use/terms_of_use_view.html');
+
+    OB.API.post('termsofuse', 'terms_load', {}, function (response) {
+      if (response.status) {
+        $('#terms_view_html').html(response.data);
+      } else {
+        $('#terms_view_html').html('Terms are not available yet.');
+      }
+    });
   }
 
   this.termsUpdate = function () {
