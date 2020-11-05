@@ -18,5 +18,4 @@ Includes a GUI inline text editor to create custom TOU
 If TOU changes, user will have to agree to revised terms on next login
 
 
-![ TOU](img/tou.png ){: .TOU}
 
