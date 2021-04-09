@@ -1,8 +1,8 @@
 <?php
 
 class TermsOfUseModule extends OBFModule {
-  public $name = 'Terms of Use';
-  public $description = 'OpenBroadcaster Terms of Use';
+  public $name = 'Terms of Use v1.0';
+  public $description = 'Customized Terms of Use';
 
   public function callbacks () {
 
