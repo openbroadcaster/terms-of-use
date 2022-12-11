@@ -1,6 +1,7 @@
-# reports
-Log analysis and royality reports for Sound Exchange, SOCAN 
+# Terms of Use
 
-After running report and downloading locally the CSV file, make sure you select UTF-8 as the character set (if it asks). This is the case when opening in LibreOffice at least. Opening in Google Sheets doesn't ask for character set
+On first login, user must accept TOU
 
-Reports are generated as a CSV file. When stations upload reports to SX they must be in xlxs. Otherwise will fail on older xls/97/2003 
+Includes a GUI inline text editor to create custom TOU
+
+If TOU changes, user will have to agree to revised terms on next login
