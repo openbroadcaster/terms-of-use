@@ -3,7 +3,7 @@ layout: default
 title: index
 ---
 
-# Terms of Use#
+# Terms of Use
 {:.no_toc}
 
 * TOC
