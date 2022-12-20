@@ -3,13 +3,13 @@ layout: default
 title: index
 ---
 
+# Terms of Use#
+{:.no_toc}
+
 * TOC
 {:toc}
 
 <a name="dashboard"></a>
-
-## Terms of Use
-{:toc}
 
 On first login, user must accept TOU
 
